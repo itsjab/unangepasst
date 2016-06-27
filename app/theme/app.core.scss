@@ -19,12 +19,3 @@ body {
   color: #000;
   letter-spacing: 0px;
 }
-
-@mixin btn-home($img-url) {
-  background-image: $img-url;
-  background-size: cover;
-  min-width: 248px;
-  min-height: 71px;
-  background-color: transparent;
-  color: #EF5350;
-}

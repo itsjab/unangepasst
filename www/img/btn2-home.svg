@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="251px" height="79px" viewBox="0 0 251 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-72.000000, -376.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(76.000000, 378.000000)">
+                <g id="Group-2">
+                    <path d="M40,15 C46.9671892,9.1376895 48.1786733,0.461651615 48.1786733,0.461651615 L103.891619,18.3412255 L130.735792,16.7786763 L161.292969,15 L205.596625,2.06147637 L194,25 L244,41 L71.6914062,71 L-2.27373675e-13,41 C-2.27373675e-13,41 33.0328108,20.8623105 40,15 Z" id="Rectangle-14" fill="#FFFFFF"></path>
+                    <text id="auf-dem-festival" font-family="AmaticSC-Regular, Amatic SC" font-size="24" font-weight="normal" fill="#EF5350">
+                        <tspan x="53" y="47">auf dem festival</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
