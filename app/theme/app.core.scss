@@ -7,8 +7,24 @@
 // By default each design mode includes these shared imports.
 // App Shared Sass variables belong in app.variables.scss.
 
-@import "../pages/about/about";
-
-@import "../pages/contact/contact";
-
 @import "../pages/home/home";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: AmaticSC-Regular;
+  font-size: 1.4rem;
+  color: #000;
+  letter-spacing: 0px;
+}
+
+@mixin btn-home($img-url) {
+  background-image: $img-url;
+  background-size: cover;
+  min-width: 248px;
+  min-height: 71px;
+  background-color: transparent;
+  color: #EF5350;
+}
