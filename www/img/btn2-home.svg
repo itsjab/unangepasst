@@ -19,8 +19,8 @@
             <g id="Group" filter="url(#filter-1)" transform="translate(76.000000, 378.000000)">
                 <g id="Group-2">
                     <path d="M40,15 C46.9671892,9.1376895 48.1786733,0.461651615 48.1786733,0.461651615 L103.891619,18.3412255 L130.735792,16.7786763 L161.292969,15 L205.596625,2.06147637 L194,25 L244,41 L71.6914062,71 L-2.27373675e-13,41 C-2.27373675e-13,41 33.0328108,20.8623105 40,15 Z" id="Rectangle-14" fill="#FFFFFF"></path>
-                    <text id="auf-dem-festival" font-family="AmaticSCRegular, AmaticSC" font-size="24" font-weight="normal" fill="#EF5350">
-                        <tspan x="53" y="47">auf dem festival</tspan>
+                    <text id="auf-dem-festival" style="font-family: AmaticSCRegular, AmaticSC; font-size: 24 font-weight: normal;" fill="#EF5350">
+                        <tspan x="53" y="47">AUF DEM FESTIVAL</tspan>
                     </text>
                 </g>
             </g>
