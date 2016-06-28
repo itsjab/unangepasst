@@ -1,0 +1,6 @@
+
+Start App in Ios and Android view from workspace:
+ionic serve --lab
+
+Start gulp during development:
+gulp watch

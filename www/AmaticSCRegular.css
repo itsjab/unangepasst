@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AmaticSCRegular';
+    src: url('fonts/AmaticSCRegular.eot');
+    src: url('fonts/AmaticSCRegular.eot') format('embedded-opentype'),
+         url('fonts/AmaticSCRegular.woff2') format('woff2'),
+         url('fonts/AmaticSCRegular.woff') format('woff'),
+         url('fonts/AmaticSCRegular.ttf') format('truetype'),
+         url('fonts/AmaticSCRegular.svg#AmaticSCRegular') format('svg');
+}
