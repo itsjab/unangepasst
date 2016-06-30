@@ -9,6 +9,21 @@
   background-color: #f5f5f5;
   background-image: url("../../img/nav-home.svg");
   min-height: 87px !important;
+<<<<<<< HEAD
+=======
+
+  .toolbar-title {
+    font-size: 2.4rem;
+    text-align: left;
+    white-space: normal;
+    width: 45%;
+    padding-left: 0;
+  }
+
+  ion-title {
+    padding-left: 24px;
+  }
+>>>>>>> ba0798014de4bd57e3753a70c2942a4e4be5ba48
 }
 
 @mixin btn-home($img-url) {
@@ -22,7 +37,17 @@
   display: block;
 }
 
+//Buttons
+.button-wrapper {
+  margin-top: 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .btn1-home {
+  margin-bottom: 50px !important;
   @include btn-home("../../img/btn1-home.svg");
 }
 
