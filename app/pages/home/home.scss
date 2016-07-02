@@ -1,3 +1,5 @@
+@import "../../theme/app.btn.scss";
+
 .home {
   background-image: url("../../img/bg-home.png");
   background-repeat: no-repeat;
@@ -9,8 +11,6 @@
   background-color: #f5f5f5;
   background-image: url("../../img/nav-home.svg");
   min-height: 87px !important;
-<<<<<<< HEAD
-=======
 
   .toolbar-title {
     font-size: 2.4rem;
@@ -23,34 +23,13 @@
   ion-title {
     padding-left: 24px;
   }
->>>>>>> ba0798014de4bd57e3753a70c2942a4e4be5ba48
-}
-
-@mixin btn-home($img-url) {
-  background-image: url($img-url);
-  background-size: cover;
-  min-width: 248px;
-  min-height: 71px;
-  background-color: transparent;
-  color: #EF5350;
-  margin: auto;
-  display: block;
-}
-
-//Buttons
-.button-wrapper {
-  margin-top: 50px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .btn1-home {
   margin-bottom: 50px !important;
-  @include btn-home("../../img/btn1-home.svg");
+  @include btn-festival("../../img/btn1-home.svg", #EF5350);
 }
 
 .btn2-home {
-  @include btn-home("../../img/btn2-home.svg")
+  @include btn-festival("../../img/btn2-home.svg", #EF5350);
 }

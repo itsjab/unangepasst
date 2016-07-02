@@ -1,9 +1,9 @@
+@import "../../theme/app.btn.scss";
+
 .info-navbar {
   background-image: url("../../img/nav-info.svg");
   min-height: 76px !important;
-<<<<<<< HEAD
   background-color: #fff;
-  color: #fff;
 }
 
 .festival-info {
@@ -11,22 +11,65 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  .active-tab {
-    font-size: 3.2rem;
-    font-weight: 600;
+  .selected {
+    font-size: 3.2rem !important;
+    font-weight: 700 !important;
     color: #EF5350;
   }
 
-  .passive-tab {
-    font-size: 2.0rem;
-    vertical-align: bottom;
+  .tab {
+    font-size: 1.6rem;
+    text-align: center;
   }
 
-}
-=======
+  .details-left {
+    margin-top: 4.0rem;
+  }
+
+  .details-center {
+    margin-top: 4.0rem;
+    text-align: center;
+  }
+
+  .details-right {
+    margin-top: 4.0rem;
+    text-align: right;
+  }
+
+  .date {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .address {
+    font-size: 2.0rem;
+    color: #EF5350;
+    margin-top: 1.4rem;
+  }
+
+  .title {
+    font-size: 4.0rem;
+    font-weight: 700;
+    margin-top: 4.0rem;
+  }
+
+  .info {
+    font-size: 1.6rem;
+  }
+
+  .place {
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-size: 2.0rem;
+    font-weight: 600;
+  }
+
+  .btn-program {
+    @include btn-festival("../../img/btn-festivalInfo.svg", #EF5350);
+  }
+
 }
 
 .bar-button-default{
     color: inherit;
 }
->>>>>>> ba0798014de4bd57e3753a70c2942a4e4be5ba48

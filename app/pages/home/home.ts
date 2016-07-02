@@ -8,7 +8,7 @@ import {FestivalInfoPage} from "../festivalInfo/festivalInfo";
 })
 export class HomePage {
   constructor(private navController: NavController) {
-  
+    
   }
 
   openFestivalInfo(festivalInfo) {

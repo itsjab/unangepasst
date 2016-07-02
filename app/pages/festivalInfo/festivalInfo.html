@@ -1,5 +1,5 @@
 <ion-navbar class="info-navbar" transparent *navbar>
-    <ion-title text-uppercase text-wrap>FestivalUnangepassteKunst</ion-title>
+    <ion-title text-uppercase text-wrap>Festival</ion-title>
 </ion-navbar>
 <!--
 <ion-tabs>
@@ -9,6 +9,8 @@
 </ion-tabs>
 -->
 <ion-content padding class="festival-info">
+
+    <!--
     <ion-grid>
         <ion-row>
             <ion-col width-50 class="active-tab">Demokratie</ion-col>
@@ -28,7 +30,51 @@
             <ion-col>Galerie Luxese</ion-col>
         </ion-row>
     </ion-grid>
+    -->
 
+    <ion-grid>
+        <ion-row>
+            <ion-col class="tab" *ngFor="let tab of tabs" (click)="onSelect(tab)" [class.selected]="tab === selectedTab">
+                {{ tab.name }}
+            </ion-col>
+        </ion-row>
+
+        <!-- Display details of selected festival -->
+        <div *ngIf="selectedTab" [class.details-left]="selectedTab === tabs[0]" [class.details-center]="selectedTab === tabs[1]" [class.details-right]="selectedTab === tabs[2]">
+            <ion-row>
+                <ion-col class="date">
+                    {{ selectedTab.date }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="address">
+                    {{ selectedTab.address }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="title">
+                    {{ selectedTab.title }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="info">
+                    {{ selectedTab.info }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="place">
+                    {{ selectedTab.place }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <button class="btn-program"></button>
+                </ion-col>
+            </ion-row>
+        </div>
+    </ion-grid>
+
+<!--
 <ion-content padding class="info">
   <div class="info-wrapper">
     Demokratie | Macht | Partizipation
@@ -38,3 +84,4 @@
     Künstler
   </div>
 </ion-content>
+-->
