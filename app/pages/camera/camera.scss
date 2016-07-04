@@ -1,0 +1,35 @@
+@import "../../theme/app.btn.scss";
+
+.home {
+  background-image: url("../../img/bg-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.home-navbar {
+  background-color: #f5f5f5;
+  background-image: url("../../img/nav-home.svg");
+  min-height: 87px !important;
+
+  .toolbar-title {
+    font-size: 2.4rem;
+    text-align: left;
+    white-space: normal;
+    width: 45%;
+    padding-left: 0;
+  }
+
+  ion-title {
+    padding-left: 24px;
+  }
+}
+
+.btn1-home {
+  margin-bottom: 50px !important;
+  @include btn-festival("../../img/btn1-home.svg", #EF5350);
+}
+
+.btn2-home {
+  @include btn-festival("../../img/btn2-home.svg", #EF5350);
+}
