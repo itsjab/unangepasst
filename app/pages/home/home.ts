@@ -18,7 +18,7 @@ export class HomePage {
   }
 
   openCamera(camera) {
-    this.navController.push(Camera, {
+    this.navController.push(CameraPage, {
       camera: camera
     })
   }
