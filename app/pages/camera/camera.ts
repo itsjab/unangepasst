@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {HomePage} from "../home/home";
+import {FestivalInfoPage} from "../festivalInfo/festivalInfo";
 
 @Component({
   templateUrl: 'build/pages/camera/camera.html'
@@ -8,4 +8,11 @@ import {HomePage} from "../home/home";
 export class CameraPage {
     constructor(private navController: NavController) {
     }
+
+    openFestivalInfo(festivalInfo) {
+      this.navController.push(FestivalInfoPage, {
+        festivalInfo: festivalInfo
+      })
+    }
+
 }
