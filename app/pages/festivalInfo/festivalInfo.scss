@@ -68,6 +68,10 @@
     @include btn-festival("../../img/btn-festivalInfo.svg", #EF5350);
   }
 
+  .btn-artists {
+    @include btn-festival("../../img/btn-artists.svg", #EF5350);
+  }
+
 }
 
 .bar-button-default{
