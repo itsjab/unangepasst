@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="262px" height="84px" viewBox="0 0 262 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Infos-Demokratie" transform="translate(-49.000000, -538.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(53.000000, 539.000000)">
+                <polygon id="Rectangle-14" fill="#EF5350" points="0.0965285279 16.6665235 57.2752018 16.1281751 113.988147 8.007749 140.83232 8.44519976 171.389497 0.666523463 195.693154 17.7279998 254.096529 10.6665235 234.096529 46.6665235 81.7879348 76.6665235 10.0965285 46.6665235"></polygon>
+                <text id="Zum-Programm" font-family="AmaticSC-Bold, Amatic SC" font-size="24" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="63" y="46">Zu den Künstlern</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

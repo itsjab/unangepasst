@@ -1,0 +1,11 @@
+@import "../../theme/app.btn.scss";
+
+.cs-img {
+  background-image: url("../../img/cs.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.btn1-cs{
+  @include btn-festival("../../img/btn1-home.svg", #EF5350);
+  margin-top: 75%;
+}
