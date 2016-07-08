@@ -1,0 +1,16 @@
+<ion-navbar class="info-navbar" transparent *navbar>
+    <ion-title text-uppercase text-wrap>Festival</ion-title>
+</ion-navbar>
+
+<ion-content padding class="festival-info">
+
+    <ion-grid>
+        <ion-row>
+            <ion-col class="tab" *ngFor="let tab of tabs" (click)="onSelect(tab)" [class.selected]="tab === selectedTab">
+                {{ tab.title }}
+            </ion-col>
+        </ion-row>
+
+
+    </ion-grid>
+</ion-content>

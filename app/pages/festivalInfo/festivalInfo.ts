@@ -3,7 +3,7 @@
  */
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {HomePage} from "../home/home";
+import {ArtistListPage} from '../artistList/artistList'
 
 export class Tab {
     name: string;
@@ -50,6 +50,12 @@ const TABS: Tab[] =
 export class FestivalInfoPage {
     constructor(private navController: NavController) {
         
+    }
+
+    openArtistList(artistList) {
+        this.navController.push(ArtistListPage, {
+            artistList: artistList
+        })
     }
     
     tabs = TABS;

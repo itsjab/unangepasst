@@ -1,36 +1,14 @@
-<ion-navbar class="info-navbar" transparent *navbar>
-    <ion-title text-uppercase text-wrap>Festival</ion-title>
-</ion-navbar>
-<!--
-<ion-tabs>
-    <ion-tab [root]="tab1Root"></ion-tab>
-    <ion-tab [root]="tab2Root"></ion-tab>
-    <ion-tab [root]="tab3Root"></ion-tab>
-</ion-tabs>
--->
-<ion-content padding class="festival-info">
+<ion-navbar class="info-navbar" hideBackButton="true" transparent *navbar>
 
-    <!--
-    <ion-grid>
-        <ion-row>
-            <ion-col width-50 class="active-tab">Demokratie</ion-col>
-            <ion-col class="passive-tab">Macht</ion-col>
-            <ion-col class="passive-tab">Partizipation</ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col offset-25 width-50><p>26. - 28. April</p></ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col>Burggrafenstraße 5</ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col>Wählen oder nicht wählen?</ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col>Galerie Luxese</ion-col>
-        </ion-row>
-    </ion-grid>
-    -->
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-title text-uppercase text-wrap>Festival</ion-title>
+
+</ion-navbar>
+
+<ion-content padding class="festival-info">
 
     <ion-grid>
         <ion-row>
@@ -68,20 +46,9 @@
             </ion-row>
             <ion-row>
                 <ion-col>
-                    <button class="btn-program"></button>
+                    <button class="btn-program" (click)="openArtistList(artistList)"></button>
                 </ion-col>
             </ion-row>
         </div>
     </ion-grid>
-
-<!--
-<ion-content padding class="info">
-  <div class="info-wrapper">
-    Demokratie | Macht | Partizipation
-    Datum
-    Addresse
-    Location
-    Künstler
-  </div>
 </ion-content>
--->
