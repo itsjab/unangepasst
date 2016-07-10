@@ -18,8 +18,8 @@
         <g id="Landing-page" transform="translate(-52.000000, -264.000000)">
             <g id="Group-3" filter="url(#filter-1)" transform="translate(56.000000, 266.000000)">
                 <path d="M3.09652853,4.66652346 C10.0637177,-1.19578704 51.2752018,0.128175077 51.2752018,0.128175077 L106.988147,18.007749 L133.83232,16.4451998 L164.389497,14.6665235 L188.693154,11.7279998 L247.096529,4.66652346 L227.096529,40.6665235 L74.7879348,70.6665235 L3.09652853,40.6665235 C3.09652853,40.6665235 -3.87066066,10.528834 3.09652853,4.66652346 Z" id="Rectangle-14" fill="#FFFFFF"></path>
-                <text id="Infos-zum-festival" font-family="Arial" font-size="20" fill="#EF5350">
-                    <tspan x="42" y="44">FESTIVALINFOS</tspan>
+                <text id="Infos-zum-festival" font-family="AmaticSC-Bold, Amatic SC" font-size="20" fill="#EF5350">
+                    <tspan x="42" y="44">FESTIVALINfos</tspan>
                 </text>
             </g>
         </g>

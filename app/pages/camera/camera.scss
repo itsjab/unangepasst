@@ -1,25 +1,16 @@
 @import "../../theme/app.btn.scss";
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.btn1-cs{
+.btn1-cs {
   @include btn-festival("../../img/btn1-home.svg", #EF5350);
   margin-top: 75%;
 }
 
-.btn1-katalog{
-  font-size: 2.4rem;
-  font-weight: bold;
+.btn-catalog {
+  @include btn-festival("../../img/btn-website.svg", #EF5350);
+}
+
+.camera {
+  background-image: url("../../img/transparent-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

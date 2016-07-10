@@ -1,21 +1,20 @@
-<ion-navbar class="home-navbar" transparent *navbar>
+<ion-navbar class="info-navbar" transparent *navbar>
   <ion-title padding text-uppercase text-wrap>FestivalUnangepassteKunst</ion-title>
 </ion-navbar>
 
 <ion-content padding class="camera">
-  <div class="katalog-wrapper">
-
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Jwa9r3yO_YE" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <p>
-      <br>
-      <br>
-      <button full class="btn1-katalog" ng-click="window.open('https://festivalunangepasstekunst.wordpress.com/home/', '_system');">Festival Website</button>
-    </p>
-
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <iframe width="100%" src="https://www.youtube.com/embed/Jwa9r3yO_YE" frameborder="0" allowfullscreen></iframe>
+      </ion-col>
+    </ion-row>
+    <ion-row class="mg-top-16">
+      <ion-col>
+        <button class="btn-catalog" (click)="window.open('https://festivalunangepasstekunst.wordpress.com/home/', '_system');"></button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
 
 <!--
