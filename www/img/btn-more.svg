@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="255px" height="79px" viewBox="0 0 255 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,5 C10.9671892,-0.862310502 52.1786733,0.461651615 52.1786733,0.461651615 L107.891619,18.3412255 L134.735792,16.7786763 L165.292969,15 L189.596625,12.0614764 L248,5 L228,41 L75.6914062,71 L4,41 C4,41 -2.96718919,10.8623105 4,5 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Künstler" transform="translate(-15.000000, -529.000000)">
+            <g id="Group" transform="translate(18.000000, 531.000000)">
+                <g id="Rectangle-14">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#EF5350" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Mehr-zum-Künstler" font-family="AmaticSC-Regular, Amatic SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="43" y="44">Mehr zum Künstler</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

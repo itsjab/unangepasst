@@ -1,16 +1,33 @@
 <ion-navbar class="info-navbar" transparent *navbar>
-    <ion-title text-uppercase text-wrap>Festival</ion-title>
+    <ion-title text-uppercase text-wrap>Künstler</ion-title>
 </ion-navbar>
 
-<ion-content padding class="festival-info">
+<ion-content padding>
 
     <ion-grid>
-        <ion-row>
-            <ion-col class="tab" *ngFor="let tab of tabs" (click)="onSelect(tab)" [class.selected]="tab === selectedTab">
-                {{ tab.title }}
+        <div class="tab" *ngFor="let artist of artists" class="mg-top-16">
+            <ion-row>
+                <ion-col class="title">
+                    {{ artist.name }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <img [src]="artist.image" alt="Cover image of artist" />
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="description">
+                    {{ artist.description }}
+                </ion-col>
+            </ion-row>
+        </div>
+
+        <ion-row class="mg-top-16">
+            <ion-col>
+                <button class="btn-program" (click)="openProgram()"></button>
             </ion-col>
         </ion-row>
-
 
     </ion-grid>
 </ion-content>

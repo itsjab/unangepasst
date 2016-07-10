@@ -9,6 +9,8 @@
 @import '../pages/home/home.scss';
 @import '../pages/festivalInfo/festivalInfo.scss';
 @import '../pages/camera/camera.scss';
+@import '../pages/programDemokratie/programDemokratie.scss';
+@import '../pages/programPartizipation/programPartizipation.scss';
 
 html {
   font-size: 62.5%;
@@ -25,9 +27,13 @@ body {
   font-size: 2.4rem;
   white-space: normal;
   width: 40%;
-  padding-left: 0;
+  padding-left: 1.6rem;
 }
 
 ion-title {
   padding-left: 24px;
+}
+
+.back-button-text {
+  display: none;
 }

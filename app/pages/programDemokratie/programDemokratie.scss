@@ -1,0 +1,27 @@
+@import "../../theme/app.btn.scss";
+
+.btn-program {
+  @include btn-festival("../../img/btn-festivalInfo.svg", #EF5350);
+}
+
+.btn-artists {
+  @include btn-festival("../../img/btn-artists.svg", #EF5350);
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 1.6rem;
+  color: #EF5350;
+}
+
+.description {
+  font-size: 1.6rem;
+}
+
+.mg-top-16:not(:first-of-type) {
+ margin-top: 1.6rem;
+}

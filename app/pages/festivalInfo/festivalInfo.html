@@ -1,8 +1,4 @@
-<ion-navbar class="info-navbar" hideBackButton="true" transparent *navbar>
-
-    <button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-    </button>
+<ion-navbar #content class="info-navbar" transparent *navbar>
 
     <ion-title text-uppercase text-wrap>Festival</ion-title>
 
@@ -19,6 +15,11 @@
 
         <!-- Display details of selected festival -->
         <div *ngIf="selectedTab" [class.details-left]="selectedTab === tabs[0]" [class.details-center]="selectedTab === tabs[1]" [class.details-right]="selectedTab === tabs[2]">
+            <ion-row>
+                <ion col class="image">
+                    <img [src]="selectedTab.image" alt="Festival info image" />
+                </ion>
+            </ion-row>
             <ion-row>
                 <ion-col class="date">
                     {{ selectedTab.date }}
@@ -46,12 +47,7 @@
             </ion-row>
             <ion-row>
                 <ion-col>
-                    <button class="btn-program" (click)="openArtistList(artistList)"></button>
-                </ion-col>
-            </ion-row>
-            <ion-row>
-                <ion-col>
-                    <button class="btn-artists"></button>
+                    <button class="btn-program" (click)="openProgram(checkTab())"></button>
                 </ion-col>
             </ion-row>
         </div>

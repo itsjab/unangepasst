@@ -1,0 +1,34 @@
+<ion-navbar class="info-navbar" transparent *navbar>
+    <ion-title text-wrap>Programm Partizipation</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+    <ion-grid>
+        <div *ngFor="let programItem of programItems" class="mg-top-16">
+            <ion-row>
+                <ion-col width-67 class="title">
+                    {{ programItem.title }}
+                </ion-col>
+                <ion-col width-33 class="date">
+                    {{ programItem.date }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <img [src]="programItem.image" alt="Program image" />
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="description">
+                    {{ programItem.description }}
+                </ion-col>
+            </ion-row>
+        </div>
+
+        <ion-row>
+            <ion-col>
+                <button class="btn-artists" (click)="openArtistList()"></button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

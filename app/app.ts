@@ -3,14 +3,17 @@ import {Platform, ionicBootstrap} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HomePage} from './pages/home/home';
 
+
 @Component({
-  template: '<ion-nav [root]="rootPage"></ion-nav>'
+  template:'<ion-nav [root]="rootPage"></ion-nav>'
+
 })
 export class MyApp {
 
-  private rootPage:any;
+  private rootPage: any;
 
   constructor(private platform:Platform) {
+
     this.rootPage = HomePage;
 
     platform.ready().then(() => {
@@ -21,4 +24,4 @@ export class MyApp {
   }
 }
 
-ionicBootstrap(MyApp)
+ionicBootstrap(MyApp);

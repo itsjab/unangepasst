@@ -1,2 +1,6 @@
-@import "../festivalInfo/festivalInfo.scss";
+@import '../programDemokratie/programDemokratie.scss';
+@import "../../theme/app.btn.scss";
 
+.btn-program {
+  @include btn-festival("../../img/btn-festivalInfo.svg", #EF5350);
+}
