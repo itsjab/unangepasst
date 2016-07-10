@@ -8,11 +8,4 @@ import {FestivalInfoPage} from "../festivalInfo/festivalInfo";
 export class CameraPage {
     constructor(private navController: NavController) {
     }
-
-    openFestivalInfo(festivalInfo) {
-      this.navController.push(FestivalInfoPage, {
-        festivalInfo: festivalInfo
-      })
-    }
-
 }
