@@ -8,9 +8,7 @@ gulp watch
 Niemals was im build Ordner ändern!
 
 Todo:
-- Camera Seiten Inhalt durch Katalog Ersetzen
-    - Video einfügen
-    - Button "hier kaufen" o.ä. einfügen
+- Button "Festival Website" verlinken
 - Content Festivalinfo einpfelgen
 - Menü Funktionen und Links
 - Scrolleiste entfernen
@@ -19,3 +17,5 @@ Todo:
 Done:
 - Button 2 sichtbar machen
 - Schriftarten / Größe bei Buttons gleich machen
+- Camera Seiten Inhalt durch Teaser Ersetzen
+    - Video einfügen
