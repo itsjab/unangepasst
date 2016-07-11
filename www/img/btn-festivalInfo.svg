@@ -18,8 +18,8 @@
         <g id="Infos-Demokratie" transform="translate(-49.000000, -538.000000)">
             <g id="Group" filter="url(#filter-1)" transform="translate(53.000000, 539.000000)">
                 <polygon id="Rectangle-14" fill="#EF5350" points="0.0965285279 16.6665235 57.2752018 16.1281751 113.988147 8.007749 140.83232 8.44519976 171.389497 0.666523463 195.693154 17.7279998 254.096529 10.6665235 234.096529 46.6665235 81.7879348 76.6665235 10.0965285 46.6665235"></polygon>
-                <text id="Zum-Programm" font-family="AmaticSC-Bold, Amatic SC" font-size="24" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="63" y="46">Zum Programm</tspan>
+                <text id="Zum-Programm" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="63" y="46">Programm</tspan>
                 </text>
             </g>
         </g>

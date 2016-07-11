@@ -1,12 +1,8 @@
 @import "../../theme/app.btn.scss";
 
-.btn1-cs {
-  @include btn-festival("../../img/btn1-home.svg", #EF5350);
-  margin-top: 75%;
-}
-
-.btn-catalog {
+.btn-info2 {
   @include btn-festival("../../img/btn-website.svg", #EF5350);
+  margin-top: 40%;
 }
 
 .camera {
