@@ -16,14 +16,14 @@ const PROGRAM: ProgramItem[] =
     [
         {
             title: "Vernisage, Botanischer Garten",
-            image: "../../img/info-macht.png",
+            image: "img/info-macht.png",
             date: "Freitag, 15. Julil 18 Uhr",
             description: "Tauchen Sie ein in die Welt der Trash Art und Aktionskunst. Die abwechslungsreichen Stücke" +
             " haben für jeden Besucher etwas zu bieten."
         },
         {
             title: "Austellung Macht",
-            image: "../../img/info-demokratie.png",
+            image: "img/info-demokratie.png",
             date: "Sa. u. So. 14 - 18 Uhr",
             description: "Zahlreiche namhafte Künstler wie Adler A.F stellen ihre neue Werke in der Unterführung zwischen " +
             " Nymphenbuger Schloss und botanischen Gartenzur Schau. Kommen Sie vorbei und genißen einen wunderlichen Tag" +

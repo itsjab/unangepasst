@@ -16,14 +16,14 @@ const PROGRAM: ProgramItem[] =
     [
         {
             title: "Vernisage, Münchner Galerie",
-            image: "../../img/info-macht.png",
+            image: "img/info-macht.png",
             date: "Freitag, 07. Oktober 18 Uhr",
             description: "Neben Trash Art und Aktionskunst stellen Kunst und Multimedia Studenten der Ludwig" +
                          "Maximilians Universität den Katalog und die DVD zum Festival vor."
         },
         {
             title: "Austellung Partizipation",
-            image: "../../img/info-demokratie.png",
+            image: "img/info-demokratie.png",
             date: "Sa. u. So. , 14 - 18 Uhr",
             description: "Zahlreiche namhafte Künstler wie Adler A.F stellen ihre neue Werke in der Galerie Luxese " +
                          "zur Schau. Kommen Sie vorbei und genißen einen wunderlichen Tag voll von Kunst und " +

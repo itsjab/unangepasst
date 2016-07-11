@@ -27,7 +27,7 @@ const TABS: Tab[] =
                   " mit der Pflicht des Bürgers die politische Landschaft in Deutschland mitzugestalten." +
                   " Und zwar durch Wählen!",
             place: "Galerie Luxese",
-            image: "../../img/info-demokratie.png"},
+            image: "img/info-demokratie.png"},
 
         {   name: "Macht",
             date: "15. - 17. Juli",
@@ -36,7 +36,7 @@ const TABS: Tab[] =
             info: "Das Macht Wochenende des Festivals für unangepasste Kunst befasst sich mit der Macht der Bürger" +
                   "in München und des Volks in der Demokratie an sich. ",
             place: "Unterführung Botanischer Garten/Nymphenburger Schloss",
-            image: "../../img/info-macht.png"
+            image: "img/info-macht.png"
         },
 
         {   name: "Partizipation",
@@ -47,7 +47,7 @@ const TABS: Tab[] =
                   " mit der Pflicht des Bürgers die politische Landschaft in Deutschland mitzugestalten." +
                   " Und zwar durch Wählen!",
             place: "Münchner Galerie",
-            image: "../../img/info-partizipation.png"}
+            image: "img/info-partizipation.png"}
     ];
 
 @Component({

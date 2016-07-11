@@ -18,7 +18,7 @@
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <use fill="#EF5350" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
-                <text id="Mehr-zum-Künstler" font-family="AmaticSC-Regular, Amatic SC" font-size="24" font-weight="normal" fill="#FFFFFF">
+                <text id="Mehr-zum-Künstler" font-family="AmaticSC-Bold, Amatic SC" font-size="24" font-weight="normal" fill="#FFFFFF">
                     <tspan x="43" y="44">Mehr zum Künstler</tspan>
                 </text>
             </g>
