@@ -82,5 +82,9 @@ export class FestivalInfoPage {
         return page;
     }
 
+    ngOnInit() {
+        this.selectedTab = this.tabs[0];
+    }
+
 
 }
